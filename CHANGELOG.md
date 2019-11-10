@@ -11,9 +11,9 @@
 - Renamed `src/views/Dashboard/Dashboard.jsx` to `src/views/Typography.jsx`
 - Renamed `src/views/Dashboard/Dashboard.jsx` to `src/views/Upgrade.jsx`
 - Renamed `src/views/Dashboard/Dashboard.jsx` to `src/views/UserProfile.jsx`
-- Renamed `src/components/Header` to `src/components/Navbars`
-- Renamed `src/components/Navbars/Header.jsx` to `src/components/Navbars/AdminNavbar.jsx`
-- Renamed `src/components/Navbars/HeaderLinks.jsx` to `src/components/Navbars/AdminNavbarLinks.jsx`
+- Renamed `src/components/share/Header` to `src/components/share/Navbars`
+- Renamed `src/components/share/Navbars/Header.jsx` to `src/components/share/Navbars/AdminNavbar.jsx`
+- Renamed `src/components/share/Navbars/HeaderLinks.jsx` to `src/components/share/Navbars/AdminNavbarLinks.jsx`
 - Changes caused by running [the prettier command](https://prettier.io/docs/en/install.html) for *.jsx*, *.js*, *.html* and *.css* files
 - Changed our buggy routing system, now it should work flawlessly, for more info, please refer to our [live docs here](https://demos.creative-tim.com/light-bootstrap-dashboard-react/#/documentation/routing-system)
 - Solved
