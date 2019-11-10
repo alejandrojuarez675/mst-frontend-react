@@ -103,32 +103,32 @@ light-bootstrap-dashboard-react
     │       │   └── mixins
     │       └── light-bootstrap-dashboard-react.scss
     ├── components
-    |   ├── share
-    |   |   ├──Card
-    |   |   |   └── Card.jsx
-    |   |   ├──CustomButton
-    |   |   |   └── CustomButton.jsx
-    |   |   ├──CustomCheckbox
-    |   |   |   └── CustomCheckbox.jsx
-    |   |   ├──CustomRadio
-    |   |   |   └── CustomRadio.jsx
-    |   |   ├──FixedPlugin
-    |   |   |   └── FixedPlugin.jsx
-    |   |   ├──Footer
-    |   |   |   └── Footer.jsx
-    |   |   ├──FormInputs
-    |   |   |   └── FormInputs.jsx
-    |   |   ├──Navbars
-    │   │   |   └── Navbars.jsx
-    │   │   |   └── AdminNavbarLinks.jsx
-    |   |   ├──Sidebar
-    |   |   |   └── Sidebar.jsx
-    |   |   ├──StatsCard
-    |   |   |   └── StatsCard.jsx
-    |   |   ├──Tasks
-    |   |   |   └── Tasks.jsx
-    |   |   └──User
-    |   |       └── UserCard.jsx
+    |   └── share
+    |       ├──Card
+    |       |   └── Card.jsx
+    |       ├──CustomButton
+    |       |   └── CustomButton.jsx
+    |       ├──CustomCheckbox
+    |       |   └── CustomCheckbox.jsx
+    |       ├──CustomRadio
+    |       |   └── CustomRadio.jsx
+    |       ├──FixedPlugin
+    |       |   └── FixedPlugin.jsx
+    |       ├──Footer
+    |       |   └── Footer.jsx
+    |       ├──FormInputs
+    |       |   └── FormInputs.jsx
+    |       ├──Navbars
+    │       |   └── Navbars.jsx
+    │       |   └── AdminNavbarLinks.jsx
+    |       ├──Sidebar
+    |       |   └── Sidebar.jsx
+    |       ├──StatsCard
+    |       |   └── StatsCard.jsx
+    |       ├──Tasks
+    |       |   └── Tasks.jsx
+    |       └──User
+    |           └── UserCard.jsx
     ├── layouts
     │   └── Admin.jsx
     ├── variables
