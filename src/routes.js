@@ -1,5 +1,5 @@
 
-import Dashboard from "views/Dashboard.jsx";
+import DashboardContainer from "containers/DashboardContainer";
 import Icons from "views/Icons.jsx";
 import Notifications from "views/Notifications.jsx";
 import TableList from "views/TableList.jsx";
@@ -11,7 +11,7 @@ const dashboardRoutes = [
     path: "/dashboard",
     name: "Dashboard",
     icon: "pe-7s-graph",
-    component: Dashboard,
+    component: DashboardContainer,
     layout: "/admin"
   },
   {

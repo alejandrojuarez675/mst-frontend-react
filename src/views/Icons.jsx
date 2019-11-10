@@ -10,7 +10,7 @@ class Icons extends Component {
       <div className="content">
         <Grid fluid>
           <Row>
-            <Col md={12}>
+            <Col md={12}> 
               <Card
                 title="202 Awesome Stroke Icons"
                 ctAllIcons
