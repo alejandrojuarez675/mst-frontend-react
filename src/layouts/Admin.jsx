@@ -1,5 +1,4 @@
 
-import image from "assets/img/sidebar-3.jpg";
 import Footer from "components/share/Footer/Footer";
 import AdminNavbar from "components/share/Navbars/AdminNavbar";
 import Sidebar from "components/share/Sidebar/Sidebar";
@@ -14,7 +13,6 @@ class Admin extends Component {
     super(props);
     this.state = {
       _notificationSystem: null,
-      image: image,
       color: "black",
       hasImage: true,
       fixedClasses: "dropdown show-dropdown open"

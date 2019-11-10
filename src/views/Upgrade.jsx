@@ -72,7 +72,7 @@ class Icons extends Component {
                         <td />
                         <td>
                           <Button
-                            href="#"
+                            href="#home"
                             round
                             fill
                             disabled
