@@ -1,13 +1,12 @@
-import React, { useCallback } from "react";
-import { useDispatch } from "react-redux";
-
+import React from "react";
+import useRoutedLogger from "utils/hooks/useRoutedLogger";
 import Dashboard from "./../views/Dashboard";
-import { setRoute } from "../actions/routerActions";
+
 
 const DashboardContainer = () => {
-  const dispatch = useDispatch();
-  const onSetRoute = useCallback(text => dispatch(setRoute(text)), [dispatch]);
-  return <Dashboard setRoute={onSetRoute} />;
+  useRoutedLogger();
+
+  return <Dashboard />;
 };
 
 export default DashboardContainer;

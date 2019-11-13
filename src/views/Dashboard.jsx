@@ -1,28 +1,13 @@
-import React, { Component } from "react";
-import ChartistGraph from "react-chartist";
-import { Grid, Row, Col } from "react-bootstrap";
-
 import { Card } from "components/share/Card/Card.jsx";
 import { StatsCard } from "components/share/StatsCard/StatsCard.jsx";
 import { Tasks } from "components/share/Tasks/Tasks.jsx";
-import {
-  dataPie,
-  legendPie,
-  dataSales,
-  optionsSales,
-  responsiveSales,
-  legendSales,
-  dataBar,
-  optionsBar,
-  responsiveBar,
-  legendBar
-} from "variables/Variables.jsx";
+import React from "react";
+import { Col, Grid, Row } from "react-bootstrap";
+import ChartistGraph from "react-chartist";
+import { dataBar, dataPie, dataSales, legendBar, legendPie, legendSales, optionsBar, optionsSales, responsiveBar, responsiveSales } from "variables/Variables.jsx";
 
-const Dashboard = (props) => {
-  const {setRoute} = props;
 
-  setRoute(window.location.href);
-
+const Dashboard = () => {
   const createLegend = json => {
     var legend = [];
     for (var i = 0; i < json["names"].length; i++) {

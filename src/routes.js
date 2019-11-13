@@ -1,10 +1,9 @@
 
 import DashboardContainer from "containers/DashboardContainer";
-import Icons from "views/Icons.jsx";
-import Notifications from "views/Notifications.jsx";
-import TableList from "views/TableList.jsx";
-import Typography from "views/Typography.jsx";
-import UserProfile from "views/UserProfile.jsx";
+import IconsContainer from "containers/IconsContainer";
+import NotificationContainer from "containers/NotifationContainer";
+import TableListContainer from "containers/TableListContainer";
+import UserProfileContainer from "containers/UserProfileContainer";
 
 const dashboardRoutes = [
   {
@@ -18,35 +17,35 @@ const dashboardRoutes = [
     path: "/user",
     name: "User Profile",
     icon: "pe-7s-user",
-    component: UserProfile,
+    component: UserProfileContainer,
     layout: "/admin"
   },
   {
     path: "/table",
     name: "Table List",
     icon: "pe-7s-note2",
-    component: TableList,
+    component: TableListContainer,
     layout: "/admin"
   },
   {
     path: "/typography",
     name: "Typography",
     icon: "pe-7s-news-paper",
-    component: Typography,
+    component: TableListContainer,
     layout: "/admin"
   },
   {
     path: "/icons",
     name: "Icons",
     icon: "pe-7s-science",
-    component: Icons,
+    component: IconsContainer,
     layout: "/admin"
   },
   {
     path: "/notifications",
     name: "Notifications",
     icon: "pe-7s-bell",
-    component: Notifications,
+    component: NotificationContainer,
     layout: "/admin"
   },
 ];
