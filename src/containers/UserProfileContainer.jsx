@@ -1,9 +1,9 @@
 import React from "react";
-import useRoutedLogger from "utils/hooks/useRoutedLogger";
+import useRouteLogger from "utils/hooks/useRouteLogger";
 import UserProfile from "views/UserProfile";
 
 const UserProfileContainer = () => {
-    useRoutedLogger();
+    useRouteLogger();
 
     return <UserProfile />;
 };

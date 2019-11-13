@@ -1,10 +1,10 @@
 import React from "react";
-import useRoutedLogger from "utils/hooks/useRoutedLogger";
+import useRouteLogger from "utils/hooks/useRouteLogger";
 import Dashboard from "./../views/Dashboard";
 
 
 const DashboardContainer = () => {
-  useRoutedLogger();
+  useRouteLogger();
 
   return <Dashboard />;
 };

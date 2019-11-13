@@ -1,9 +1,9 @@
 import React from "react";
-import useRoutedLogger from "utils/hooks/useRoutedLogger";
+import useRouteLogger from "utils/hooks/useRouteLogger";
 import Typography from "views/Typography";
 
 const TypographyContainer = () => {
-    useRoutedLogger();
+    useRouteLogger();
 
     return <Typography />
 };

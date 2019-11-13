@@ -1,9 +1,9 @@
 import React from "react";
-import useRoutedLogger from "utils/hooks/useRoutedLogger";
+import useRouteLogger from "utils/hooks/useRouteLogger";
 import Notifications from "views/Notifications";
 
 const NotificationContainer = () => {
-    useRoutedLogger();
+    useRouteLogger();
 
     return <Notifications />;
 };

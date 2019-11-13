@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { setRoute } from "../../actions/routerActions";
 
 
-const useRoutedLogger = () => {
+const useRouteLogger = () => {
     const dispatch = useDispatch();
     const onSetRoute = useCallback(
         text => dispatch(setRoute(text)),
@@ -13,4 +13,4 @@ const useRoutedLogger = () => {
     onSetRoute(window.location.href);
 };
 
-export default useRoutedLogger;
+export default useRouteLogger;
