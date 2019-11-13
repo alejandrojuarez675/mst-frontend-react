@@ -3,6 +3,7 @@ import DashboardContainer from "containers/DashboardContainer";
 import IconsContainer from "containers/IconsContainer";
 import NotificationContainer from "containers/NotifationContainer";
 import TableListContainer from "containers/TableListContainer";
+import TypographyContainer from "containers/TypographyContainer";
 import UserProfileContainer from "containers/UserProfileContainer";
 
 const dashboardRoutes = [
@@ -31,7 +32,7 @@ const dashboardRoutes = [
     path: "/typography",
     name: "Typography",
     icon: "pe-7s-news-paper",
-    component: TableListContainer,
+    component: TypographyContainer,
     layout: "/admin"
   },
   {

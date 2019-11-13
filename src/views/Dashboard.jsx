@@ -8,6 +8,7 @@ import { dataBar, dataPie, dataSales, legendBar, legendPie, legendSales, options
 
 
 const Dashboard = () => {
+  
   const createLegend = json => {
     var legend = [];
     for (var i = 0; i < json["names"].length; i++) {

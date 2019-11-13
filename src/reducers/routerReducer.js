@@ -3,18 +3,17 @@ import {
 } from '../actions/routerActions';
 
 const initialState = {
-    route: 'home'
+    route: 'NaN'
 };
 
-export default function routerReducer(state = initialState, action) {
+const routerReducer = (state = initialState, action) => {
     switch (action.type) {
         case SET_ROUTE:
-            console.log(action)
-            return ({
-                route: action.text || 'NaN'
-            });
+            return ({ route: action.text || 'NaN' });
 
         default:
             return state;
     }
 }
+
+export default routerReducer;
